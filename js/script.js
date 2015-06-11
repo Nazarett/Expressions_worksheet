@@ -11,7 +11,7 @@ var dogYears = 147;
 
 
 
-//Slice of pie part 1
+//Slice of pie part 1.
 
 var numOfPizzas = 15; //Number of pizzas ordered.
 var numOfSlices = 8; //Number of slices per pizza.
@@ -26,8 +26,36 @@ var totalSlices = 120;//Total slices of 8 pizzas
 //Calculate how many slices per person by dividing the total slices / the total amount of people at the party.
 
 console.log(slicesPerPerson + " slices of pizza per person");// Total of slices of pizza per person at the party.
-var pizzasPerPerson = 6.3 //Slice of pizza corresponding to each person in the party.
+var pizzasPerPerson = 6.3; //Slice of pizza corresponding to each person in the party.
 
 
-//Slice of pie 2
+
+//Slice of pie 2.
+
 // Calculate how many slices will sparky get after pizza is evenly divided among the guest.
+var remainder = 6 % 19 + " slices of pizzas for sparky"; //Operation to know how many slices sparky is getting.
+console.log(remainder); //total of slices that sparky will be receive.
+
+
+//Average shopping bill.
+
+var weeklyGroceries = [80, 95, 70, 110, 65]; //5 weeks grocery shopping.
+var total = weeklyGroceries[0] + weeklyGroceries[1] + weeklyGroceries[2] + weeklyGroceries[3] + weeklyGroceries[4]; //Sum of 5 weeks grocery shopping.
+var average = total / 5 + "$"; //Average of 5 weeks grocery shopping.
+console.log(average); //total average of 5 weeks shopping.
+
+
+//Discounts
+
+var originalPrice = 5500; //Retail price
+var discount = 0.35; // Discount 35% percent on item.
+var item = ["Coat"]; //Description of the item.
+var salesTax = 0.18; //Sales tax on item 18%.
+var totalDiscount = originalPrice * discount; //35% discount
+var discountPrice = originalPrice - totalDiscount;//Price of item with 35% discount.
+var itemTax = discountPrice * salesTax;//18% sales tax.
+var priceTax = discountPrice + itemTax;//Price of item with sales tax.
+console.log(totalDiscount + "$"); //35% of the item.
+console.log(discountPrice + "$"); //Total price of item with 35% discount.
+console.log(itemTax + "$"); //Total price of item with sales tax.
+console.log(priceTax + "$")
