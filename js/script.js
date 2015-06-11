@@ -16,24 +16,22 @@ var dogYears = 147;
 var numOfPizzas = 15; //Number of pizzas ordered.
 var numOfSlices = 8; //Number of slices per pizza.
 var people = 19; //Number of people at the party.
-var totalSLices = numOfSlices * numOfPizzas; //This will calculate the total slices of all pizzas.
-var slicesPerPerson = totalSLices / people; //This will calculate the slices per person.
+var totalSlices = numOfSlices * numOfPizzas; //This will calculate the total slices of 15 pizzas.
+var slicesPerPerson = totalSlices / people; //This will calculate the slices per person.
 //Calculate the total of slices by multiplying the amount of slices per pizza * the total amount of pizza.
 
-console.log(totalSLices + " slices of pizza"); //This operation will give us the total amount of slices.
-var totalSlices = 120;//Total slices of 8 pizzas
 
-//Calculate how many slices per person by dividing the total slices / the total amount of people at the party.
-
-console.log(slicesPerPerson + " slices of pizza per person");// Total of slices of pizza per person at the party.
-var pizzasPerPerson = 6.3; //Slice of pizza corresponding to each person in the party.
-
-
+console.log(totalSlices + " slices of pizza"); //This operation will give us the total amount of slices.
 
 //Slice of pie 2.
+//Calculate how many slices per person by dividing the total slices / the total amount of people at the party.
+
+console.log(slicesPerPerson + " It is 6 slices of pizza per person and 3 slices for sparky");// Total of slices of pizza per person and sparky.
+
+
 
 // Calculate how many slices will sparky get after pizza is evenly divided among the guest.
-var remainder = 6 % 19 + " slices of pizzas for sparky"; //Operation to know how many slices sparky is getting.
+var remainder = 120 % 19 + " slices of pizzas for sparky"; //Operation to know how many slices sparky is getting.
 console.log(remainder); //total of slices that sparky will be receive.
 
 
@@ -55,7 +53,7 @@ var totalDiscount = originalPrice * discount; //35% discount
 var discountPrice = originalPrice - totalDiscount;//Price of item with 35% discount.
 var itemTax = discountPrice * salesTax;//18% sales tax.
 var priceTax = discountPrice + itemTax;//Price of item with sales tax.
-console.log(totalDiscount + "$"); //35% of the item.
-console.log(discountPrice + "$"); //Total price of item with 35% discount.
-console.log(itemTax + "$"); //Total price of item with sales tax.
-console.log(priceTax + "$")
+console.log(item [0] + " " + totalDiscount + "$"); //35% of the item.
+console.log(item [0] + " " + discountPrice + "$"); //Total price of item with 35% discount.
+console.log(item [0] + " " + itemTax + "$"); //Tax of the item
+console.log(item [0] + " " + priceTax + "$"); //Total price of item with sales tax.
